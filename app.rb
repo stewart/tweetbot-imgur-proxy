@@ -1,10 +1,8 @@
 require 'sinatra'
 require 'httmultiparty'
 
-require 'base64'
-
 IMGUR_API = "https://api.imgur.com/3/image"
-CLIENT_ID = ENV.fetch("IMGUR_CLIENT_ID")
+CLIENT_ID = ENV.fetch "IMGUR_CLIENT_ID"
 
 post '/' do
   content_type :json
