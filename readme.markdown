@@ -1,6 +1,6 @@
 # Tweetbot - Imgur Proxy
 
-This is a small Sinatra proxy to use with Tweetbot to upload images to imgur.
+This is a small Go proxy to use with Tweetbot to upload images to imgur.
 
 ## Usage
 
